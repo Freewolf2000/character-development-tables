@@ -1,0 +1,21 @@
+{
+   "name": "character-development-tools",
+   "title": "Character Development Tools",
+   "description": "Random tables and tools for character development",
+   "author": "Freewolf2000",
+   "version": "0.1.0",
+   "minimumCoreVersion": "0.6.6",
+   "compatibleCoreVersion":"0.7.7",
+   "url": "https://github.com/Freewolf2000/character-development-tools",
+   "manifest": "https://raw.githubusercontent.com/Freewolf2000/character-development-tools/main/character-development-tools/module.json",
+   "download": "https://github.com/Freewolf2000/character-development-tools/raw/main/character-development-tools.zip",
+   "packs": [
+      {
+      "name": "Backstory-Questions",
+      "label": "Backstory Questions",
+      "path": "./packs/backstory-questions.db",
+      "entity": "RollTable",
+      "module": "character-development-tools"
+    }
+  ]
+}
